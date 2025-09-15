@@ -1,0 +1,48 @@
+# 📊 Proyecto: Predicción de Demanda
+
+## 📌 Descripción
+Este proyecto implementa un modelo de **Regresión Lineal** para predecir la demanda de productos.  
+
+Se parte de un dataset sintético (relación entre la variable independiente `X` y la demanda `y`).
+
+---
+
+## ⚙️ Tecnologías usadas
+- Python (pandas, scikit-learn, matplotlib)
+- Jupyter Notebook
+
+---
+
+## 📈 Resultados
+El modelo alcanzó un **R² = 0.92** en el conjunto de prueba.  
+
+Gráfico del ajuste lineal:
+
+![Regresión Lineal](../../assets/img/regresion_lineal.png)
+
+---
+
+## 🚀 Código de ejemplo (`demo.py`)
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+# Datos sintéticos
+X = np.random.uniform(-3, 3, size=(200, 1))
+y = 3.0 * X.squeeze() + 2.0 + np.random.normal(0, 1.0, size=200)
+
+# Modelo
+model = LinearRegression().fit(X, y)
+y_pred = model.predict(X)
+
+# Métrica
+print("R²:", r2_score(y, y_pred))
+
+# Gráfica
+plt.scatter(X, y, alpha=0.6, label="Datos")
+plt.plot(np.sort(X, axis=0), np.sort(y_pred), color="red", linewidth=2, label="Modelo")
+plt.title("Regresión Lineal — Predicción de Demanda")
+plt.legend()
+plt.show()
