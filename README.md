@@ -1,4 +1,4 @@
-# Portafolio de Ciencia de Datos — Tu Nombre
+# Portafolio de Ciencia de Datos Ramón Figueroa
 
 Bienvenido a mi portafolio profesional.  
 Aquí encontrarás proyectos, mi CV y publicaciones en el área de **Ciencia de Datos**.
@@ -9,7 +9,7 @@ Aquí encontrarás proyectos, mi CV y publicaciones en el área de **Ciencia de 
 - **Assets** → Recursos (CSS, imágenes)
 
 ## 🚀 Publicado en GitHub Pages
-[Ver Portafolio en vivo](https://TU-USUARIO.github.io/datascience-portfolio/)
+[Ver Portafolio en vivo](https://github.com/ElHefe20/Portafolio_RFM/)
 
 ## 📫 Contacto
 - Email: ramon.figueroa.m@gmail.com
