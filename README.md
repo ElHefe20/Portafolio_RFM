@@ -1,4 +1,4 @@
-# Portafolio de Ciencia de Datos Ramón Figueroa
+# Portafolio de Ciencia de Datos - Ramón Figueroa
 
 Bienvenido a mi portafolio profesional.  
 Aquí encontrarás proyectos, mi CV y publicaciones en el área de **Ciencia de Datos**.
@@ -13,6 +13,6 @@ Aquí encontrarás proyectos, mi CV y publicaciones en el área de **Ciencia de 
 
 ## 📫 Contacto
 - Email: ramon.figueroa.m@gmail.com
-- LinkedIn: https://linkedin.com/in/TU-LINK  
+- LinkedIn: https://linkedin.com/in/ 
 - GitHub: https://github.com/ElHefe20
  
